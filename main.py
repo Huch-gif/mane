@@ -18,11 +18,11 @@ class Warrior ():
     def eat(self):
         print(f"{self.name} сел кушать")
 
-         self.power = + 1
+        self.power = + 1
 
 def hit(self):
          print(f"{self.name} бьет кого-то")
-          self.endurance =- 6
+         self.endurance =- 6
 
 
 def info(self):
@@ -30,3 +30,6 @@ def info(self):
          print(f"цвет волос воина - {self.hair_color}")
          print(f"сила воина - {self.power}")
          print(f"выносливость воина - {self.endurance}")
+
+
+
